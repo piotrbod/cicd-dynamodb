@@ -3,7 +3,7 @@ import { fromSSO } from '@aws-sdk/credential-provider-sso';
 import { marshall } from '@aws-sdk/util-dynamodb';
 
 // Set the SSO profile name
-const ssoProfileName = 'AWSAdministratorAccess-288761741912';
+const ssoProfileName = 'your-aws-profile';
 
 // Initialize the DynamoDB client with SSO credentials
 const dynamodbClient = new DynamoDBClient({
